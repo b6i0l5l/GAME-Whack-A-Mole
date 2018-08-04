@@ -24,6 +24,7 @@ public class GameManerger : MonoBehaviour
     public GameObject Moler7;
     public GameObject Molew8;
     public GameObject Moler8;
+    public GameObject Timer;
 
 
    
@@ -98,7 +99,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole1()
     {
-        if (openhole1 == true)
+        if (openhole1 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber1 = Random.Range(0, 2);
             if (RandMoleNumber1 == 0)
@@ -117,7 +118,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole2()
     {
-        if (openhole2 == true)
+        if (openhole2 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber2 = Random.Range(0, 2);
             if (RandMoleNumber2 == 0)
@@ -136,7 +137,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole3()
     {
-        if (openhole3 == true)
+        if (openhole3 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber3 = Random.Range(0, 2);
             if (RandMoleNumber3 == 0)
@@ -155,7 +156,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole4()
     {
-        if (openhole4 == true)
+        if (openhole4 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber4 = Random.Range(0, 2);
             if (RandMoleNumber4 == 0)
@@ -174,7 +175,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole5()
     {
-        if (openhole5 == true)
+        if (openhole5 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber5 = Random.Range(0, 2);
             if (RandMoleNumber5 == 0)
@@ -193,7 +194,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole6()
     {
-        if (openhole6 == true)
+        if (openhole6 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber6 = Random.Range(0, 2);
             if (RandMoleNumber6 == 0)
@@ -212,7 +213,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole7()
     {
-        if (openhole7 == true)
+        if (openhole7 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber7 = Random.Range(0, 2);
             if (RandMoleNumber7 == 0)
@@ -231,7 +232,7 @@ public class GameManerger : MonoBehaviour
     }
     void RandomMole8()
     {
-        if (openhole8 == true)
+        if (openhole8 == true && Timer.GetComponent<Timer>().timing>0)
         {
             int RandMoleNumber8 = Random.Range(0, 2);
             if (RandMoleNumber8 == 0)
